@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.test.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.test.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.test.app-debug-32:/layout-land_activity_main.xml.flat",
+        "source": "com.example.test.app-main-34:/layout-land/activity_main.xml"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.test.app-debug-32:/drawable_img.png.flat",
+        "source": "com.example.test.app-main-34:/drawable/img.png"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/xml_backup_rules.xml.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-debug-32:/xml_data_extraction_rules.xml.flat",
+        "source": "/home/omargarcia/.gradle/daemon/8.11.1/com.example.test.app-main-34:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.test.app-debug-32:/layout-sw600dp_activity_main.xml.flat",
+        "source": "com.example.test.app-main-34:/layout-sw600dp/activity_main.xml"
+    }
+]
