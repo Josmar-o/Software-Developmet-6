@@ -1,2 +1,2 @@
-# Software-Developmet-7
+# Software-Developmet-6
 Android Studio, Java, Kotlin
