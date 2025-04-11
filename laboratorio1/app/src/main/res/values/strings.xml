@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">laboratorio1</string>
+    <string name="num1">Numero 1</string>
+    <string name="num2">Numero 2</string>
+    <string name="btnCalcular">Calcular Suma</string>
+    <string name="error">Esta Vacio</string>
+    <string-array name="array_operaciones">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multplicacion</item>
+        <item>Division</item>
+    </string-array>
+
+</resources>
