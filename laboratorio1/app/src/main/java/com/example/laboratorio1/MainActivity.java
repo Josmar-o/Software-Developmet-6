@@ -70,13 +70,13 @@ public class MainActivity extends AppCompatActivity {
                     return;
                     }
 
-                int num1 = Integer.parseInt(txtNum1.getText().toString());
-                int num2 = Integer.parseInt(txtNum2.getText().toString());
+                double num1 = Double.parseDouble(txtNum1.getText().toString());
+                double num2 = Double.parseDouble(txtNum2.getText().toString());
 
-                int result;
+                double result;
 
                 result = Calculadora.suma(num1, num2);
-                txtResultado.setText(String.valueOf(result));
+                txtResultado.setText(String.format("%.2f", result));
 
             }
         });
@@ -88,12 +88,12 @@ public class MainActivity extends AppCompatActivity {
                 if(siTextoVacio()){
                     return;
                 }
-                int num1 = Integer.parseInt(txtNum1.getText().toString());
-                int num2 = Integer.parseInt(txtNum2.getText().toString());
-                int result;
+                double num1 = Double.parseDouble(txtNum1.getText().toString());
+                double num2 = Double.parseDouble(txtNum2.getText().toString());
+                double result;
 
                 result = Calculadora.resta(num1, num2);
-                txtResultado.setText(String.valueOf(result));
+                txtResultado.setText(String.format("%.2f", result));
 
             }
         });
@@ -106,12 +106,12 @@ public class MainActivity extends AppCompatActivity {
                 if (siTextoVacio()){
                     return;
                 }
-                int num1 = Integer.parseInt(txtNum1.getText().toString());
-                int num2 = Integer.parseInt(txtNum2.getText().toString());
+                double num1 = Double.parseDouble(txtNum1.getText().toString());
+                double num2 = Double.parseDouble(txtNum2.getText().toString());
 
-                int result;
+                double result;
                 result = Calculadora.multiplicacion(num1, num2);
-                txtResultado.setText(String.valueOf(result));
+                txtResultado.setText(String.format("%.2f", result));
 
             }
         });
@@ -124,18 +124,18 @@ public class MainActivity extends AppCompatActivity {
                     return;
                 }
 
-                int num1 = Integer.parseInt(txtNum1.getText().toString());
-                int num2 = Integer.parseInt(txtNum2.getText().toString());
+                double num1 = Double.parseDouble(txtNum1.getText().toString());
+                double num2 = Double.parseDouble(txtNum2.getText().toString());
 
                 if (num2 == 0) {
                     Toast.makeText(MainActivity.this, "No se puede dividir entre 0", Toast.LENGTH_SHORT).show();
                     txtResultado.setText("ERROR");
                 } else{
 
-                    int result;
+                    double result;
 
                     result = Calculadora.division(num1, num2);
-                    txtResultado.setText(String.valueOf(result));
+                    txtResultado.setText(String.format("%.2f", result));
                 }
             }
         });
