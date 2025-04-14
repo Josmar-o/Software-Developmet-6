@@ -2,7 +2,10 @@
     <string name="app_name">laboratorio1</string>
     <string name="num1">Numero 1</string>
     <string name="num2">Numero 2</string>
-    <string name="btnCalcular">Calcular Suma</string>
+    <string name="btnCalcular">Sumar</string>
+    <string name="btnRestar">Restar</string>
+    <string name="btnMultiplicar">Multiplicar</string>
+    <string name="btnDividir">Dividir</string>
     <string name="error">Esta Vacio</string>
     <string-array name="array_operaciones">
         <item>Suma</item>

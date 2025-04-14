@@ -7,6 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,8 +18,15 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
     Spinner spinner;
     EditText txtNum1, txtNum2;
-    Button btnCalcular;
+    Button btnSuma, btnDividir, btnRestar, btnMultiplicar;
     TextView txtResultado;
+    public boolean siTextoVacio(){
+        if(txtNum1.getText().toString().trim().equals("") || txtNum2.getText().toString().trim().equals("")){
+            Toast.makeText(this, "Ambos campos deben tener texto", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        return false;
+    }
 
 
     @Override
@@ -35,42 +43,105 @@ public class MainActivity extends AppCompatActivity {
 
         //CODIGO
 
-
         txtNum1 = findViewById(R.id.txtNum1);
         txtNum2 = findViewById(R.id.txtNum2);
-        btnCalcular = findViewById(R.id.btnCalcular);
+        btnSuma = findViewById(R.id.btnSuma);
+        btnRestar = findViewById(R.id.btnRestar);
+        btnMultiplicar = findViewById(R.id.btnMultplicar);
+        btnDividir = findViewById(R.id.btnDividir);
         txtResultado = findViewById((R.id.txtResultado));
-        spinner = findViewById(R.id.spinnerOptions);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
-                this,
-                R.array.array_operaciones,
-                android.R.layout.simple_spinner_item
-        );
-        // Specify the layout to use when the list of choices appears.
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        // Apply the adapter to the spinner.
-        spinner.setAdapter(adapter);
 
-        btnCalcular.setOnClickListener(new View.OnClickListener() {
+//        spinner = findViewById(R.id.spinnerOptions);
+//        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
+//                this,
+//                R.array.array_operaciones,
+//                android.R.layout.simple_spinner_item
+//        );
+//        // Specify the layout to use when the list of choices appears.
+//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        // Apply the adapter to the spinner.
+//        spinner.setAdapter(adapter);
+
+        btnSuma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(txtNum1.getText().toString().trim().equals("")){
-                    txtNum1.setError(getResources().getString(R.string.error));
 
-                }else if(txtNum2.getText().toString().trim().equals("")){
-                    txtNum1.setError(getResources().getString(R.string.error));
+                if(siTextoVacio()){
+                    return;
+                    }
 
-                }else{
-                    double num1 = Double.parseDouble(txtNum1.getText().toString());
-                    double num2 = Double.parseDouble(txtNum2.getText().toString());
-                    double result;
-                    result = num1 + num2;
-                    txtResultado.setText(String.valueOf(result));
+                int num1 = Integer.parseInt(txtNum1.getText().toString());
+                int num2 = Integer.parseInt(txtNum2.getText().toString());
 
-                }
+                int result;
+
+                result = Calculadora.suma(num1, num2);
+                txtResultado.setText(String.valueOf(result));
 
             }
         });
+
+        btnRestar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if(siTextoVacio()){
+                    return;
+                }
+                int num1 = Integer.parseInt(txtNum1.getText().toString());
+                int num2 = Integer.parseInt(txtNum2.getText().toString());
+                int result;
+
+                result = Calculadora.resta(num1, num2);
+                txtResultado.setText(String.valueOf(result));
+
+            }
+        });
+
+        btnMultiplicar.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View v) {
+
+                if (siTextoVacio()){
+                    return;
+                }
+                int num1 = Integer.parseInt(txtNum1.getText().toString());
+                int num2 = Integer.parseInt(txtNum2.getText().toString());
+
+                int result;
+                result = Calculadora.multiplicacion(num1, num2);
+                txtResultado.setText(String.valueOf(result));
+
+            }
+        });
+
+        btnDividir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (siTextoVacio()){
+                    return;
+                }
+
+                int num1 = Integer.parseInt(txtNum1.getText().toString());
+                int num2 = Integer.parseInt(txtNum2.getText().toString());
+
+                if (num2 == 0) {
+                    Toast.makeText(MainActivity.this, "No se puede dividir entre 0", Toast.LENGTH_SHORT).show();
+                    txtResultado.setText("ERROR");
+                } else{
+
+                    int result;
+
+                    result = Calculadora.division(num1, num2);
+                    txtResultado.setText(String.valueOf(result));
+                }
+            }
+        });
+
+
+
 
 
 
