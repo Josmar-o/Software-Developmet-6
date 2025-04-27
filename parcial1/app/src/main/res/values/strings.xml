@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">parcial1</string>
+    <string name="textview1">Ingrese un texto para transformar:"</string>
+    <string name="uppercase">Mayuscula</string>
+    <string name="lowercase">Minuscula</string>
+    <string name="inverse">Invertir</string>
+    <string name="quantity">Cantidad de textos</string>
+    <string name="toastUpper">Texto transformado a Mayusculas</string>
+    <string name="toastLower">Texto transformado a Minusculas</string>
+    <string name="toastInverse">Texto Invertido</string>
+    <string name="toastQuantity">Contando cada palabra en el texto</string>
+</resources>
