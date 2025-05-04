@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">laboratorio3</string>
+    <string name="pagina_name">Famous.com</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="contra">Contraseña</string>
+    <string name="ya_tienes">¿Ya tienes cuenta? Accede aqui!</string>
+    <string name="no_tienes">¿No tienes cuenta? Accede aqui!</string>
+    <string name="acceder">Acceder</string>
+    <string name="crear_cuenta">Crear Cuenta</string>
+    <string name="welcome">Welcome back!</string>
+    <string name="missed">You have been missed</string>
+    <string name="sign_google">Sign in Google</string>
+    <string name="or">OR</string>
+    <string name="email">e-mail</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="dont_acc">Don\'t have an account?</string>
+
+
+</resources>
