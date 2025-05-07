@@ -24,7 +24,9 @@
     <string name="cita">Sacar Cita</string>
     <string name="doctores">Doctores</string>
     <string name="servicios">Servicios</string>
-    <string name="teefonos">telefonos</string>
+    <string name="telefonos">Telefonos</string>
+    <string name="historial">Historial</string>
+    <string name="expediente">Expediente</string>
     <string name=""></string>
 
 
