@@ -11,17 +11,20 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/fondoBlanco"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="-323dp">
+        android:showDividers="middle"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:background="@color/fondoBlanco">
+
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="250dp"
             android:layout_margin="10dp"
-            app:srcCompat="@drawable/welcome_icon" />
+            android:foregroundGravity="center"
+            app:srcCompat="@drawable/bienvenido" />
 
         <TextView
             android:id="@+id/textView6"
@@ -40,7 +43,7 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:text="@string/missed"
-            android:textColor="@color/tonoGris" />
+            android:textColor="@color/grisOscuro" />
 
         <Button
             android:id="@+id/button2"
@@ -48,6 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:backgroundTint="@color/tonoGris"
+            android:maxWidth="320dp"
             android:text="@string/sign_google"
             android:textSize="25dp"
             app:icon="@drawable/google_icon"
@@ -65,12 +69,14 @@
         <EditText
             android:id="@+id/editTextText4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@color/tonoGris"
             android:ems="10"
             android:inputType="text"
-            android:text="@string/email" />
+            android:padding="5dp"
+            android:text="@string/email"
+            android:textColor="@color/grisOscuro" />
 
         <Space
             android:layout_width="match_parent"
@@ -80,12 +86,14 @@
         <EditText
             android:id="@+id/editTextText5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_margin="10dp"
             android:background="@color/tonoGris"
             android:ems="10"
             android:inputType="text"
-            android:text="@string/password" />
+            android:padding="5dp"
+            android:text="@string/password"
+            android:textColor="@color/grisOscuro" />
 
         <Space
             android:layout_width="match_parent"
@@ -95,9 +103,11 @@
         <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_margin="10dp"
-            android:text="@string/sign_in" />
+            android:backgroundTint="@color/black"
+            android:text="@string/sign_in"
+            app:cornerRadius="0dp" />
 
         <TextView
             android:id="@+id/textView9"
@@ -106,6 +116,6 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:text="@string/dont_acc"
-            android:textColor="@color/tonoGris" />
+            android:textColor="@color/grisOscuro" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

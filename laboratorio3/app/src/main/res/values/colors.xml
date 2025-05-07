@@ -7,4 +7,24 @@
     <color name="colorLabels">#B5B5B5</color>
     <color name="fondoBlanco">#e5e7e9</color>
     <color name="tonoGris">#B5B5B5</color>
+    <color name="grisOscuro">#858484</color>
+    <!--    Calculadora 1-->
+    <color name="oscuro">#1c2023</color>
+    <color name="azulOscuro">#354651</color>
+    <color name="amarillo1">#f9d38a</color>
+    <color name="amarillo2">#ebc874</color>
+    <color name="fondo">#e5e7e9</color>
+    <!-- Calculadora 2   -->
+    <color name="azulOscuro1">#1a2634</color>
+    <color name="azulOscuro2">#486489</color>
+    <color name="celeste">#03A9F4</color>
+    <color name="naranjaOscuro">#F44336</color>
+    <color name="naranja">#FF9800</color>
+    <color name="verde">#519449</color>
+    <!-- Dashboard Clinica   -->
+    <color name="fondoTitulo">#32b5e5</color>
+    <color name="fondo2">#e5e7e9</color>
+    <color name="fondoLetrasTitulo">#ffffff</color>
+
+
 </resources>

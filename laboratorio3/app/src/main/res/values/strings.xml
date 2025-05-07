@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">laboratorio3</string>
+    <!-- Diseño 1 y 2    -->
     <string name="pagina_name">Famous.com</string>
     <string name="nombre">Nombre</string>
     <string name="correo">Correo</string>
@@ -8,6 +9,7 @@
     <string name="no_tienes">¿No tienes cuenta? Accede aqui!</string>
     <string name="acceder">Acceder</string>
     <string name="crear_cuenta">Crear Cuenta</string>
+    <!-- Diseño 3    -->
     <string name="welcome">Welcome back!</string>
     <string name="missed">You have been missed</string>
     <string name="sign_google">Sign in Google</string>
@@ -16,6 +18,14 @@
     <string name="password">password</string>
     <string name="sign_in">Sign in</string>
     <string name="dont_acc">Don\'t have an account?</string>
+    <!-- Diseño 6 Dashboard   -->
+    <string name="dashboard">Dashboard</string>
+    <string name="bienvenidoClinica">Bienvenido a mi Clinica</string>
+    <string name="cita">Sacar Cita</string>
+    <string name="doctores">Doctores</string>
+    <string name="servicios">Servicios</string>
+    <string name="teefonos">telefonos</string>
+    <string name=""></string>
 
 
 </resources>
