@@ -1,3 +1,59 @@
 <resources>
     <string name="app_name">laboratorio3-forms</string>
+<!--    Main activity-->
+    <string name="lab3">Laboratorio #3 Formularios</string>
+    <string name="irActividad">Ir a la Actividad</string>
+
+    <!-- Problema 1: Calculadora de Edad  -->
+    <string name="titulo1">Calculadora de Edad</string>
+    <string name="calcular">Calcular</string>
+    <string name="AnoNacimiento">Ingrese año de nacimiento:</string>
+    <string name="regresar">Regresar al Menu</string>
+
+    <!-- Problema 2: Conversor de Temperatura -->
+    <string name="titulo2">Conversor de Temperatura</string>
+    <string name="temperatura">Ingrese temperatura a convertir:</string>
+    <string name="calcularFtoC">Calcular de Fahrenheit a Celsius</string>
+    <string name="calcularCtoF">Calcular de Celsius a Fahrenheit</string>
+
+    <!-- Problema 3: Validación de Nombre -->
+    <string name="titulo3">Validación de Nombre</string>
+    <string name="nombre">Ingrese su Nombre:</string>
+    <string name="verificar">Verificar</string>
+
+    <!-- Problema 4: Suma de Dos Números -->
+    <string name="titulo4">Suma de Dos Números</string>
+    <string name="num1">Ingrese Numero 1: </string>
+    <string name="num2">Ingrese Numero 2:</string>
+
+    <!-- Problema 5: Calculadora de Descuento -->
+    <string name="titulo5">Calculadora de Descuento</string>
+    <string name="producto">Ingrese el precio de un Producto:</string>
+    <string name="descuento">Ingrese el descuento del Producto: (sin el simbolo de %)</string>
+
+    <!-- Problema 6: Multiplicador de Números -->
+    <string name="titulo6">Multiplicador de Números</string>
+
+    <!-- Problema 7: Validación de Edad para Registro -->
+    <string name="titulo7">Validación de Edad para Registro</string>
+    <string name="edad">Ingrese su edad:</string>
+
+    <!-- Problema 8: Área de un Rectángulo -->
+    <string name="titulo8">Área de un Rectángulo</string>
+    <string name="base">Ingrese la Base: </string>
+    <string name="altura">Ingrese la Altura:</string>
+
+    <!-- Problema 9: Conversor de Kilómetros a Millas -->
+    <string name="titulo9">Conversor de Kilómetros a Millas</string>
+    <string name="distancia">Ingrese distancia a convertir:</string>
+    <string name="calcularKmToM">Calcular de Kilómetros a Millas</string>
+    <string name="calcularMtoKm">Calcular de Millas a Kilómetros</string>
+
+    <!-- Problema 10: Verificación de Contraseña -->
+    <string name="titulo10">Verificación de Contraseña</string>
+    <string name="contra1">Ingrese la Contraseña:</string>
+    <string name="contra2">Repita la Contraseña ingresada:</string>
+
+
+
 </resources>
